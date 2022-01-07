@@ -26,8 +26,8 @@ Constraints
 Output Format
 
 The function must return a Boolean value (True/False). Output is handled by the provided code stub.
-code:
+   code:
 
-def is_leap(year):
-return year % 4 == 0 and (year % 400 == 0 or year % 100 != 0)
-return leap
+    def is_leap(year):
+    return year % 4 == 0 and (year % 400 == 0 or year % 100 != 0)
+    return leap
